@@ -38,5 +38,5 @@ Some React features that are explored include:
 * Notistack for snackbars
 
 ### More information
-* You can explore the Apollo Server's Graph by [clicking here](shorturl.at/ghix4).
-* You can query the Apollo Server directly by [clicking here](shorturl.at/AMU23).
+* You can explore the Apollo Server's Graph by [clicking here](https://shorturl.at/ghix4).
+* You can query the Apollo Server directly by [clicking here](https://shorturl.at/AMU23).
