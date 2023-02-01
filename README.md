@@ -1,5 +1,5 @@
 # John's Bookstore Client - React & Apollo Client
-[Click here to visit the app]{https://johns-bookstore-client.herokuapp.com/readers}.
+[Click here to visit the app](https://johns-bookstore-client.herokuapp.com/readers).
 
 This app is an admin page for a bookstore's platform for users to read books on and lends available books to them. The user of the page, the admin, manages the app's entities (books, readers, book authors) within the app.
 ## User stories
