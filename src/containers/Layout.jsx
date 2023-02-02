@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 
 const Layout = ({ children, title }) => {
     const location = useLocation();
-    console.log(location)
     return (
         <Box
             className="Layout"

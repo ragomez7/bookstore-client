@@ -10,7 +10,6 @@ const ReadersSelectField = ({ setReaderId }) => {
   const [readers, setReaders] = useState([]);
   useQuery(GET_READERS, {
     onCompleted: (data) => {
-      console.log(data)
         let newData = {};
         for (const reader of data.getReaders.readers) {
           newData[reader.name] = reader.id;

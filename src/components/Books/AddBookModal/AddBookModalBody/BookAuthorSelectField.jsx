@@ -7,7 +7,6 @@ import { GET_AUTHORS } from '../../../Authors/queries';
 
 
 const BookAuthorSelectField = ({ authorId, setAuthorId }) => {
-  console.log(`authorId ${authorId}`)
   useQuery(GET_AUTHORS, {
     onCompleted: (data) => {
         let newData = {};

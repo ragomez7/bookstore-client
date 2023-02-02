@@ -31,7 +31,6 @@ const AddReaderModalBody = ({
             },
             onCompleted: (data) => {
                 handleQueryEventResults("add-reader", true)()
-                console.log('getting readers')
                 client.refetchQueries({
                     include: [GET_READERS]
                 })
