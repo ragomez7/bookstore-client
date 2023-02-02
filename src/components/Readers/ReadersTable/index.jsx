@@ -9,7 +9,7 @@ import ReadersTablePagination from './ReadersTablePagination';
 import usePaginateTable from '../../common';
 import ReadersTableHead from './ReadersTableHead';
 import ReadersTableBody from './ReadersTableBody';
-import SkeletonTable from '../../Books/BooksTable/SkeletonTable';
+import SkeletonTable from '../../common/SkeletonTable';
 
 const ReadersTable = () => {
     const [readersCount, setReadersCount] = useState(0);

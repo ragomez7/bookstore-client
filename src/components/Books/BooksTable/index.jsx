@@ -8,7 +8,7 @@ import { GET_BOOKS } from '../queries';
 import usePaginateTable from '../../common';
 import BooksTableHead from './BooksTableHead';
 import BooksTableBody from './BooksTableBody';
-import SkeletonTable from './SkeletonTable';
+import SkeletonTable from '../../common/SkeletonTable';
 
 const BooksTable = () => {
     const [limit] = useState(10);

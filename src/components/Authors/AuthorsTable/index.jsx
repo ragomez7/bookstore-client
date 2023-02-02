@@ -8,7 +8,7 @@ import { GET_AUTHORS } from '../queries';
 import usePaginateTable from '../../common';
 import AuthorsTableHead from './AuthorsTableHead';
 import AuthorsTableBody from './AuthorsTableBody';
-import SkeletonTable from '../../Books/BooksTable/SkeletonTable';
+import SkeletonTable from '../../common/SkeletonTable';
 
 const AuthorsTable = () => {
     const [limit] = useState(10);
