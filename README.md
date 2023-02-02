@@ -1,4 +1,4 @@
-# John's Bookstore Client - React & Apollo Client
+# John's Bookstore Client - React & GraphQL Apollo Client
 [Click here to visit the app](https://johns-bookstore-client.herokuapp.com/).
 
 This app is an admin page for a bookstore's platform for users to read books on and lends available books to them. The user of the page, the admin, manages the app's entities (books, readers, book authors) within the app.
@@ -22,7 +22,6 @@ Some React features that are explored include:
 * Custom hooks
 * Context
 * Higher Order Components
-* Custom hooks
 * memo
 * react-router-dom for routing
 ### Apollo Client features
@@ -38,5 +37,8 @@ Some React features that are explored include:
 * Notistack for snackbars
 
 ### More information
-* You can explore the Apollo Server's Graph by [clicking here](https://shorturl.at/ghix4).
-* You can query the Apollo Server directly by [clicking here](https://shorturl.at/AMU23).
+* Explore the Apollo Server's Graph and interact with the REST API by [clicking here](https://shorturl.at/ghix4).
+* Query the Apollo Server directly by [clicking here](https://shorturl.at/AMU23).
+* See REST API docs for this app by [clicking here](https://shorturl.at/pBR56).
+* Query the REST API directly from any client through `https://johns-bookstore-server.herokuapp.com/`
+* Explore the REST API's github repo by [clicking here](https://github.com/ragomez7/bookstore-isolated-server).
