@@ -27,7 +27,6 @@ const LendBookToReaderModal = ({ bookId }) => {
     const [addReaderToBook] = useMutation(ADD_READER_TO_BOOK, {
         onCompleted: async (data) => {
             handleQueryEventResults("lend-book-to-reader", true)()
-
             const readerBooksArray = client.readFragment({
                 id: `Reader:${readerId}`,
                 fragment: gql`
