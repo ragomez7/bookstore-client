@@ -45,3 +45,6 @@ Some React features that are explored include:
 * See REST API docs for this app by [clicking here](https://johns-bookstore-server.herokuapp.com/).
 * Query the REST API directly from any client through `https://johns-bookstore-server.herokuapp.com/`
 * Explore the REST API's github repo by [clicking here](https://github.com/ragomez7/bookstore-isolated-server).
+
+### Rights attribution
+* The books' and authors' data present in this app was provided by Google Books API and Wikimedia API
