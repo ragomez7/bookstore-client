@@ -12,6 +12,7 @@ const Layout = ({ children, title }) => {
                 backgroundColor: '#0D3B66',
                 height: '1000px',
                 paddingX: 35,
+                minWidth: '1396px'
             }}
         >
             <Box sx={{
@@ -21,15 +22,17 @@ const Layout = ({ children, title }) => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 borderRadius: 4,
-                height: '1000px'
+                height: '1000px',
+                minWidth: '1396px'
+                
             }}>
                 <Box sx={{
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     marginTop: 1,
-                    width: '100%',
-                    position: 'relative'
+                    position: 'relative',
+                    minWidth: '1346px',
                 }}>
                     {location.pathname !== "/" ?
                         <Link to="/">

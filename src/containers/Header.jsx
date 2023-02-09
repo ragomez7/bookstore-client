@@ -14,7 +14,7 @@ const Header = () => {
           fontWeight: 600,
           letterSpacing: 1.3,
           marginY: '22px',
-          color: '#FAF0CA'
+          color: '#FAF0CA',
         }}>
           John's Bookstore
         </Typography>
