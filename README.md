@@ -20,7 +20,6 @@ This app is an admin page for a bookstore's platform for users to read books on 
 ## App features
 This client's UI is built with functional React and related libraries within the React umbrella.
 ### React features
-Some React features that are explored include:
 * Hooks
 * Custom hooks
 * Context
